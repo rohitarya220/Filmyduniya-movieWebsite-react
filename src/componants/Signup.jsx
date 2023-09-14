@@ -96,7 +96,7 @@ const Signup = () => {
     <div className=' flex flex-col justify-center items-center mt-4'>
     { otpSent ? 
     <>
-        <p  className=' text-5xl text-red-600 font-bold'>Welcome to FilmyDuniya</p>
+        <p  className=' text-2xl md:text-5xl text-red-600 font-bold'>Welcome to FilmyDuniya</p>
         <div className="relative mt-16">
           <label htmlFor="movieName" className="leading-7 text-lg font-bold ">Enter Verified OTP</label>
           <input  id="movieName" name="movieName" value={OTP} onChange={(e) => setOTP(e.target.value)} className="appearance-none w-full mt-1 bg-black border-b border-gray-400 rounded-sm text-base outline-none px-3 leading-8 transition-colors duration-200 ease-in-out" />
